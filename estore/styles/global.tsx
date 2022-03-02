@@ -13,9 +13,7 @@ const GlobalStyle = createGlobalStyle`
 
     main {
         width: 1280px;
-        margin: 0 auto;
-        padding: 0 20px;
-        background-color: #f5f5f5;
+        margin: 32px auto;
     }
  `;
 
