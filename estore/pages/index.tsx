@@ -4,6 +4,7 @@ import Head from "next/head";
 import GlobalStyle from "../styles/global";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import ProductList from "../components/Products/ProductList/ProductList";
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +22,7 @@ const Home: NextPage = () => {
 
       <main>
         <Header />
-        <h1>This is main content area</h1>
+        <ProductList />
         <Footer />
       </main>
     </div>
